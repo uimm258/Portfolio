@@ -133,6 +133,10 @@ body {
     font-weight: bold;
 }
 
+.project ul {
+    list-style: none;
+}
+
 /* Contact */
 .contact {
     position: relative;
