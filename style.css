@@ -110,8 +110,8 @@ body {
 }
 
 .project img {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     display: inline;
 }
 
@@ -122,9 +122,9 @@ body {
 
 .project p {
     position: relative;
-    width: 50%;
-    left: 25%;
     text-align: center;
+    width: 80%;
+    left: 10%
 }
 
 .project a {
@@ -166,7 +166,7 @@ body {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
     /* Header */
     .header a {
         float: none;
@@ -180,10 +180,22 @@ body {
 
     .intro-content {
         position: absolute;
-        top: 800px;
+        top: 750px;
+        width: 220px
     }
 
     .group {
         flex-direction: column;
+    }
+    
+    .project p {
+        position: relative;
+        text-align: center;
+    }
+
+    .project img {
+        width: 85%;
+        height: 50%;
+        display: inline;
     }
 }
