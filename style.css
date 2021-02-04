@@ -72,7 +72,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
+    width: 70%;
     padding: -20px;
     text-align: center;
 }
@@ -102,7 +102,7 @@ body {
 
 /* Project */
 .project {
-    background-color: #caf0f8;
+    
     position: relative;
     top: -85px;
     box-shadow: 0px 100px 50px #ffeedd inset;
@@ -128,9 +128,12 @@ body {
 }
 
 .project a {
-    text-decoration: none;
-    color: red;
+    color: black;
     font-weight: bold;
+}
+
+.project a:hover {
+    color: red
 }
 
 .project ul {
@@ -166,8 +169,13 @@ body {
 }
 
 
-@media screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
     /* Header */
+    .header h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
     .header a {
         float: none;
         display: block;
@@ -181,7 +189,7 @@ body {
     .intro-content {
         position: absolute;
         top: 750px;
-        width: 220px
+        width: 70%;
     }
 
     .group {
@@ -199,3 +207,13 @@ body {
         display: inline;
     }
 }
+
+
+@media only screen and (max-height: 540px) {
+    .intro-content {
+        position: absolute;
+        top: 475px;
+        width: 70%;
+    }
+}
+
