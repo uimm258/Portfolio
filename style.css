@@ -212,7 +212,7 @@ body {
 @media only screen and (max-height: 540px) {
     .intro-content {
         position: absolute;
-        top: 475px;
+        top: 485px;
         width: 70%;
     }
 }
